@@ -1,0 +1,22 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "my parcel-react snippet tryout",
+  "main": "src/index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": "https://github.com/ccczy-czy/snippets.git",
+  "author": "ccczy-czy <zc2122@nyu.edu>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}

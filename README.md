@@ -1,2 +1,3 @@
 # snippets
-react code snippets
+
+react code snippets using Parcel to build

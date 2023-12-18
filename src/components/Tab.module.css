@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    margin: 30px;
+    padding: 32px;
+    background-color: rgb(14, 18, 29);
+    border-radius: 8px;
+    position: relative;
+}
+
+.wrapperHidden {
+    display: none;
+}
+
+.dotWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(232, 44, 53);
+}
+
+.dot:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.avatarBtn {
+    background: transparent;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 50%;
+    outline: 2px solid white;
+    background: white;
+    overflow: hidden;
+}
+
+.avatarBtn:hover {
+    border-color: hotpink;
+    border-style: dashed;
+}
+
+.avatar {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    transition: transform 500ms;
+}
+
+.avatarBtn:hover .avatar {
+    transform: rotate(-25deg);
+    transition: transform 250ms;
+}
